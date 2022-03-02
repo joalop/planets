@@ -1,0 +1,500 @@
+   88  cat javascript/script.js
+   89  ls
+   90  cd javascript/
+   91  ls
+   92  git add 
+   93  git commit -m "versión 3.0"
+   94  cd ..
+   95  ls
+   96  git add index.html 
+   97  git commit -m "version 3.0"
+   98  git status
+   99  git add .
+  100  git commit -m "version 4.0"
+  101  git status
+  102  clear
+  103  git branch javascript
+  104  git branch
+  105  git log --oneline
+  106  git checkout javascript 
+  107  git branch
+  108  git -k
+  109  gitk
+  110  git branch
+  111  git checkout master
+  112  git checkout javascript 
+  113  cat javascript/script.js 
+  114  git add .
+  115  git commit -m "version 5.0"
+  116  git checkout master 
+  117  git checkout javascript 
+  118  git init
+  119  git branch css
+  120  git branch
+  121  git checkout css
+  122  git st
+  123  git add.
+  124  git commit -m'hola 2.0'
+  125  git commit -a
+  126  git status
+  127  git add.
+  128  git commit -m'hola 3.0'
+  129  git checkout master
+  130  git checkout css
+  131  git commit -m 'hola 4.0'
+  132  git add.
+  133  git commit -m 'hola 4.0'
+  134  git checkout master
+  135  git checkout javascript
+  136  git checkout master
+  137  git checkout javascript
+  138  git checkout css
+  139  git nano css/estilos2.css
+  140  git touch css/estilos2.css
+  141  git nano css/estilos2.css
+  142  cd css/
+  143  touch estilos2.css 
+  144  cd ..
+  145  git nano css/estilos2.css
+  146  git nano /css/estilos2.css
+  147  git css 
+  148  git cd /css 
+  149  git cd css 
+  150  git cd css/
+  151  cd css/
+  152  history
+  153  clear
+  154  git init
+  155  git . add
+  156  git add .
+  157  git commit -m "Estos son los rchivos"
+  158  git status
+  159  git branch estilos
+  160  git branch estilos
+  161  git checkout estilos
+  162  git status
+  163  git status
+  164  git add .
+  165  git commit -m "Nuevos estilos"
+  166  git status
+  167  git checkout master
+  168  git checkout estilos
+  169  git branch html
+  170  git checkout html
+  171  git status
+  172  git add .
+  173  git commit -m "cambios javasscript html"
+  174  git checkout estilos
+  175  git checkout html
+  176  git checkout master
+  177  git checkout html
+  178  git checkout estilos
+  179  git checkout master
+  180  git checkout html
+  181  git commit -a "cod html 2.0"
+  182  git status
+  183  git commit -a -m "cod html 2.0"
+  184  git status
+  185  git merge estilos
+  186  git commit -a -m " fusion de rama html y estilos"
+  187  git status
+  188  git log
+  189  git cat
+  190  history
+  191  git branch
+  192  git checkout estilos
+  193  git checkout master
+  194  git checkout html
+  195  git branch
+  196  git checkout estilos
+  197  git checkout html
+  198  git merge estilos
+  199  git status
+  200  git history
+  201  history
+  202  ls
+  203  git log
+  204  git shortlog
+  205  git checkout master
+  206  git log --oneline
+  207  git checkout html
+  208  gitk
+  209  git checkout master
+  210  gitk
+  211  git log
+  212  git checkout estilos
+  213  cat estilos.css 
+  214  ls
+  215  cat index.html 
+  216  git checked javascript
+  217  git checkout javascript
+  218  clear
+  219  gitk
+  220  git checkout css
+  221  gitk
+  222  git checkout master
+  223  gitk
+  224  git init
+  225  mkdir proyecto-web
+  226  git init
+  227  echo "# proyecto-web" >> readme.md
+  228  add readme.md 
+  229  git commit -m "first comit"
+  230  git add readme.md 
+  231  git commit -m "first comit"
+  232  git remote add origin https://github.com/joalop/Proyecto-Web.git
+  233  git remote add origin https://github.com/joalop/Proyecto-Web.git
+  234  git push -u origin master
+  235  git remote add origin https://github.com/joalop/Proyecto-Web.git
+  236  git push -u origin master
+  237  cd ~
+  238  ls -la
+  239  ssh-keygen
+  240  git push -u origin master
+  241  git remote add origin https://github.com/joalop/Proyecto-Web.git
+  242  cd ./ssh/
+  243  cd .ssh/
+  244  ls
+  245  cat id_rsa.pub 
+  246  git -T git@github.com
+  247  git remote add origin https://github.com/joalop/Proyecto-Web.git
+  248  dir
+  249  cd ..
+  250  dir
+  251  git remote add origin https://github.com/joalop/Proyecto-Web.git
+  252  git remote add origin https://github.com/joalop/Proyecto-Web.git
+  253  git push -u origin master
+  254  git remote add origin git@github.com:joalop/Proyecto-Web.git
+  255  git push -u origin master
+  256  git remote rm origin_ssh
+  257  git remote -v
+  258  git remote rm origin
+  259  git remote add origin git@github.com:joalop/Proyecto-Web.git
+  260  git push -u origin master
+  261  cd ~
+  262  ls
+  263  cd ..
+  264  ls
+  265  cd ..
+  266  ls
+  267  cd ..
+  268  ls
+  269  cd etc/
+  270  ls
+  271  cd ssh
+  272  ls
+  273  cat id_rsa.pub
+  274  cd
+  275  cd ..
+  276  cd ..
+  277  cd ..
+  278  cd ..
+  279  cat .ssh/id_rsa.pub
+  280  cd 
+  281  cat .ssh/id_rsa.pub
+  282  ls
+  283  ssh -T git@github.com
+  284  git init
+  285  git remote -v
+  286  git remote add origin git@github.com:joalop/Proyecto-Web-2.git
+  287  git branch -M main
+  288  git remote -v
+  289  git remote add git@github.com:joalop/Proyecto-Web.git
+  290  git remote add origin git@github.com:joalop/Proyecto-Web.git
+  291  git remote -v
+  292  git branch
+  293  git branch master
+  294  git remote add origin git@github.com:joalop/Proyecto-Web-2.git
+  295  git branch -M main
+  296  git push -u origin main
+  297  $ git push -u origin main
+  298  echo "# Proyecto-Web-2" >> README.md
+  299  git init
+  300  git add README.md
+  301  git commit -m "first commit"
+  302  git branch -M main
+  303  git remote add origin git@github.com:joalop/Proyecto-Web-2.git
+  304  echo "# Proyecto-Web-3" >> README.md
+  305  git init
+  306  git add README.md
+  307  git commit -m "first commit"
+  308  git branch -M main
+  309  git remote add origin git@github.com:joalop/Proyecto-Web-3.git
+  310  git push -u origin main
+  311  git checkout
+  312  git checkout master
+  313  git chekout master
+  314  git checkout master
+  315  clear
+  316  mkdir elis
+  317  cd elis/
+  318  git clone git@github.com:joalop/proyecto-web-1.gitgit@github.com:joalop/proyecto-web-1.git
+  319  ls
+  320  git clone git@github.com:joalop/proyecto-web-1.git
+  321  ls
+  322  cd proyecto-web-1/
+  323  ls
+  324  cat readme.txt
+  325  cat readme.md
+  326  ls
+  327  cd ..
+  328  cd proyecto-web-1/
+  329  git branch -M joan
+  330  ls
+  331  nano README.md 
+  332  cat README.md 
+  333  dit diff
+  334  git diff
+  335  git commit -a -m "hola elis"
+  336  git status
+  337  git push origin main
+  338  git checkout main
+  339  git push origin main
+  340  git checkout joan
+  341  git push origin joan
+  342  git commit -a -m "hola elis"cd ..cd..
+  343  cd ..
+  344  cd ..
+  345  ls
+  346  mkadir apuntes
+  347  mkdir apuntes
+  348  cd apuntes/
+  349  echo "holo" > archi.txt
+  350  git add archi.txt 
+  351  git init
+  352  git add archi.txt 
+  353  echo "holo" >> archi.txt
+  354  git status
+  355  git commit -m "asd"
+  356  git diff
+  357  git commit -a -m "modificado"
+  358  git status
+  359  git diff
+  360  touch arch1 arch2
+  361  nano arch1
+  362  nano arch2
+  363  ls
+  364  git add arch1.txt arch2.txt 
+  365  git status
+  366  git rm --cached .
+  367  git rm --cached -r .
+  368  git status
+  369  git int
+  370  clear
+  371  git init
+  372  nano main.py
+  373  ls
+  374  git status
+  375  git commit .
+  376  git add .
+  377  git commit
+  378  git status
+  379  nano main.py
+  380  git status
+  381  git add .
+  382  git status
+  383  branch
+  384  git branch
+  385  git brnach nuevo
+  386  git branch nuevo
+  387  git checkout nuevo
+  388  nano main.py 
+  389  git commit -a 
+  390  git status
+  391  git branch proyecto
+  392  git checkout proyecto 
+  393  git nano main.py
+  394  nano main.py 
+  395  nano main.py 
+  396  git status
+  397  git add .
+  398  git commit
+  399  git merge prueva
+  400  git merge nuevo
+  401  git checkout nuevo
+  402  git status
+  403  cat main.py 
+  404  git checkout proyect
+  405  cat main.py 
+  406  git checkout nuevo
+  407  git merge nuevo
+  408  git checkout master
+  409  cat main.py 
+  410  git lod --all graph
+  411  git log --all graph
+  412  git lod -all graph
+  413  git lod --all graph
+  414  git log graph
+  415  git log --graph
+  416  cat .gitignore
+  417  cat .git/gitignore
+  418  git log --oneline --decorate --graph --all
+  419  git log --graph --all
+  420  git log --oneline --decorate --graph --all
+  421  git lod --all --graph
+  422  git log --all --graph
+  423  git log --oneline --decorate --graph --all
+  424  git log
+  425  git log --oneline
+  426  git log --stat
+  427  git status
+  428  git log -p
+  429  git log --graph
+  430  git checkout proyecto
+  431  git log --graph
+  432  git checkout nuevo
+  433  git log --graph
+  434  git checkout master
+  435  git branch -d nuevo
+  436  git branch -f -d nuevo
+  437  git branch -f -d proyecto
+  438  git branch -d -f master
+  439  git rm - r .git/
+  440  git status 
+  441  ls
+  442  nano main.py 
+  443  nano main.py 
+  444  git branch -b rama-a
+  445  git branch -B rama-a
+  446  git checkout -b rama-a
+  447  nano main.py 
+  448  cat main.py 
+  449  git add .
+  450  git commit
+  451  git status
+  452  git checkout master
+  453  git checkout -b rama-b
+  454  cat main.py 
+  455  nano main.py 
+  456  git checkout master
+  457  cat main.py 
+  458  git init
+  459  echo"nuevo archivo" > archi.md
+  460  echo "nuevo archivo" > archi.md
+  461  git checkout -d rama-a
+  462  git checkout -b rama-a
+  463  echo "desde rama-a" >> archi.md 
+  464  git add .
+  465  git commit 
+  466  git checkout master
+  467  git status
+  468  git checkout master
+  469  git checkout master
+  470  git log
+  471  git branch master
+  472  git checkout master
+  473  ls
+  474  cat archi.md 
+  475  git init
+  476  git checkout -b rama-a
+  477  git checkout master
+  478  git branch
+  479  ls
+  480  echo "rama-a" > archi.txt
+  481  git checkout master
+  482  git branch
+  483  git checkout -b master
+  484  git branch
+  485  git status
+  486  ls
+  487  mkdir planets
+  488  cd planets/
+  489  git init
+  490  ls
+  491  ls -a
+  492  git config
+  493  git conf
+  494  clear
+  495  git --help
+  496  git status
+  497  cd
+  498  ls
+  499  cd planets/
+  500  ls -a
+  501  git status
+  502  mkdir moons
+  503  git status
+  504  ls
+  505  ls -a
+  506  ls -la
+  507  git status
+  508  git add moons/
+  509  git status
+  510  git status
+  511  git commit
+  512  git add moons/*
+  513  ls
+  514  cd moons/
+  515  nano mars.txt
+  516  git satatus
+  517  ls -la
+  518  cd ..
+  519  ls -la
+  520  mv moons/mars.txt mars.txt
+  521  ls
+  522  cat mars.txt 
+  523  git status
+  524  git add mars.txt 
+  525  git status
+  526  git commit 
+  527  git status
+  528  git log
+  529  nano mars.txt 
+  530  git status
+  531  cat mars.txt 
+  532  git diff mars.txt
+  533  git add commit -a mars.txt 
+  534  git commit -a mars.txt 
+  535  git status
+  536  git commit -a mars.txt 
+  537  git add mars.txt 
+  538  git commit -m "Add concers about effects of mars"
+  539  git diff
+  540  git diff mars.txt
+  541  git nano mars.txt
+  542  nano mars.txt
+  543  git diff mars.txt
+  544  git add mars.txt
+  545  git diff mars.txt
+  546  git status
+  547  git commit -m "Discus concers about mars"
+  548  git status
+  549  git log
+  550  nano venus.txt
+  551  git add venus.txt 
+  552  git commit
+  553  nano mars.txt 
+  554  git status
+  555  cat mars.txt 
+  556  git checkout HEAD mars.txt
+  557  cat mars.txt 
+  558  mkdir results
+  559  ls
+  560  cd results/
+  561  touch a.dat b.dat c.dat
+  562  ls
+  563  touch results/a.out results/b.out
+  564  mkdir results
+  565  touch results/a.out results/b.out
+  566  nano .gitignore
+  567  git status
+  568  ls -la
+  569  git add .gitignore 
+  570  git commit -m ".gitignore"
+  571  git status --ignored
+  572  ls
+  573  cd ..
+  574  ls -la
+  575  git remote add origin git@github.com:joalop/planets.git
+  576  git branch -M main
+  577  git push -u origin main
+  578  git remote -v
+  579  git git@github.com:joalop/planets.git push
+  580  git push
+  581  git commit -m "examen"
+  582  git push
+  583  ls -la
+  584  cd results/
+  585  ls -la
+  586  cd ..
+  587  history > historial.txt
